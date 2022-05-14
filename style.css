@@ -1,0 +1,27 @@
+.calculator {
+    width: 300px;
+    height: 400px;
+}
+
+#display {
+    width: 300px;
+    height: 40px;
+    border: solid 1px black;
+}
+
+.calculator .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+}
+
+.calculator div:hover {
+    background-color: gray;
+}
+
+.highlight {
+    background-color: yellow;
+}
